@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+D:\My Batches\Monocept July 2023\Assignments\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2953351571.index
+\22-jsps-app\src
+D:\My Batches\Monocept July 2023\Assignments\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2501904932.index
+\23-cookies-demo\src
+D:\My Batches\Monocept July 2023\Assignments\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1576069694.index
+\24-jstl-app\src
+D:\My Batches\Monocept July 2023\Assignments\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4236660184.index
+\23-cookies-demo\src

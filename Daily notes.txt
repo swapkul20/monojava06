@@ -1,0 +1,1843 @@
+Software? ->   set of programs
+
+Program? -> set of instructions
+
+instruction? -> command to computer
+
+
+
+instruction   ->  program   ->  software  ->  software suit
+
+
+
+why to give instructions to computer?-> 
+
+
+Programming Languages -> JAVA 
+
+
+ -> top 10 programming languages
+
+
+Sun Microsystems -> James Gossling, Patrick Nougthon, Mike Sheridon (Green Team)  -> Embedded Systems(TvDish)
+
+                    Oak ->  JAVA
+
+
+
+Bjarne Strousstrup -> C + 
+(First object oriented programming languages)  -> c++
+
+Internet Programming -> 
+
+JAVA is not an acronym -> Just Another Virtual Accelarator
+
+
+Featurs of java - java buzzwords ->
+
+1. simple  -> c and c++ syntaxes -> 
+
+2. object oriented programming language -> oop features(encapsulation, polymorhism, inheritance, abstraction, class, objects, dyanamic binding)
+
+3. Robust -> strong  -> does not allow to make common programming mistakes.
+                         1. memory management
+                         2. exception handling
+4. Secure -> JRE -> java runtime environment
+                       jdk -> java development kit + jre () 
+
+5. Architecture Neutral -> write once, run anywhere, everywhere, forever
+
+6.. Platform independant ->(Portable)
+
+7. Compliled and interpreted -> abc.java -> compile -> abc.class(bytecode) -> interpret -> exceutable code 
+
+   bytecode -> highly optimized instruction set to be executed by JVM (Java Virtual Machine)
+
+                               source code  -> object code
+8. Multithreaded -> mutitasking ->  
+
+
+
+
+->jdk (java development kit) ->
+   1. jvm (java virtual machine) -> to build java application
+   2. jre (java runtime environment) -> to run java applications
+
+
+
+-> First java program ->
+
+
+#include<iostream.h>
+main()
+{
+  cout<<"This is c++ code";
+  return 0;
+}
+
+
+
+
+class Test
+{
+  public static void main(String args[])
+  {
+     System.out.println("This is java code!!! Welcome to java world");
+  }
+}
+
+
+
+
+
+
+
+main() ->
+
+1. main method
+2. Program exeution starts with main
+3. main end means program ends
+4. it is only compulsory method inside a program
+5. one program can have only one method
+6. the class having main method must be written inside a file having same name as that of class 
+
+
+
+-> Format specifiers in java / backlash characters
+
+
+Tokens -> token is smallest individual part of a program ->
+
+1. Keyword -> reserved words which are provided by the language
+2. identifier -> these are the names given to programming elements like varibles, functions, classes, interfaces, objects, constants etc.
+
+                  a. it can contain alphabets(a-z, A-Z, numbers(0 to 9), underscore (_))
+                  b. it should not start with a number
+                  c. identifier can not be a keyword
+                  d. any other special character other than _ are not allowed
+
+3. variable -> it is used to store values. they are names given to some memory location.
+
+               you should decalre a variable before using it
+
+                 datatype variablename;
+                  
+                  int number=10;
+                 System.out.println(number);
+                 
+
+
+                  void aditionOfTwoNumbers()
+
+                 final double PI=3.14;
+
+
+4. datatype->  type of data a variable holds
+
+            Java is a strictly typed language ->
+                        every variable has a type
+                        every expression has type
+
+
+
+                  int number;
+                  number=10.5;  // error
+
+
+1. integers ->     byte	   - 1 byte  ->  0000 0000   to 1111 1111    - range
+                   short   - 2 bytes
+                   int     - 4 bytes
+                   long    - 8 bytes
+2. floats    ->    float  -  4 bytes
+                   double  - 8 bytes
+3. character 	->  char - 2 bytes  -> unicodes
+4. boolean    -> boolean -> true  false 
+
+
+
+    int a=3;
+   if(a=2)
+    cout<<"hi"<<a;
+   else
+    cout<<"bye";
+
+
+-> Accepting input from user ->
+
+
+cin -> in c++
+scanf()  -> in c
+
+1. Scanner
+2. command line arguments
+
+
+Control structrures -> 
+
+if
+if-else    -> decision control structures / selection statements
+switch
+
+while
+do-while   -> looping structures / iterative statements
+for
+
+continue
+break
+
+if(condition)
+{
+
+}
+else
+{
+}
+
+1. to find maximum of two numbers
+2. to check whether number is even or odd
+3. to check whether number is positive or not
+
+
+-> while(condition)
+  {
+  }
+
+
+
+1. accept a number and print its reverse
+2. check whether number is palindrome or not
+3. accept a number and calculate sum of its digits
+4. check whether anumber is armstrong or not    153   ->  1 + 125 + 27  => 153
+
+
+
+ -> while & do-while  ->
+
+   1. while is top checking and do-while is bottom checking loop
+   2. if condition is false then no statement in while will execute but in do-while statements always execute for one time 
+
+
+   do
+   {
+
+
+   }while(condition);
+
+
+@. Accepting input from command line arguments-> 
+
+  
+   while running a program, we can pass some values to main(). these values are called as command line arguments
+
+    String args[] accepts command line arguments
+
+   java First 10 20
+
+  args[0] -10
+  args[1] - 20
+
+
+ -> for ->
+
+
+   for(initialization;condition;increment/decrement)
+   {
+
+   }
+
+1. program to print a table of a number
+2. program to check whether a number is prime or not
+
+
+
+-> POC(Proof of Concept)  on Operators in java
+
+ 		0	1	0	0
+		
+           1    0       0     0      0
+		
+
+
+
+
+
+-> POC -> Debugging code in java(eclipse)(step into, step over, step return)
+
+
+
+Type checking and type casting: java is strictly typed langguage.
+                                - every type and expression is checked for type compatibility
+
+
+Automatic type conversion -> allowed - widening conversion
+
+1. source type and destination type must be compatible with each other
+
+      all numbers are compatible with each other
+
+       byte, short, int , long, float, double
+
+      int X boolean
+
+2. destination type must be larger than the source type 
+
+
+
+
+   
+Type casting: 1. source type and destination type must be compatible with each other
+
+
+
+
+-> Arrays -> collection of values of same data type.
+
+
+datatype arrayname[size]; // c and cpp
+
+
+int a[5]={1,2,3}
+
+cout<<a[3]; // garbage value
+cout<<a[5]; // grabage value
+
+
+int size=5;
+int array[size];
+
+in c and cpp, no array bounds are checked  
+
+
+
+two step process in java->
+
+
+1. declaration of array -> datatype arrayname[];
+2. memory allocation -> arrayname=new datatype[size];
+
+int size=scanner.nextInt();
+int array[]; // array=null
+array=new int[size];          10	20	30	40	50
+				0	1	2	3	4
+
+
+array[0]=10
+array[1]=20
+
+
+1. program to read array of size n and calculate sum of all array elements
+2. program to read array of size n and find out second maximum of an array
+3. program to sort an array in descending order
+
+2. multi dimentional arrays -> array of arrays
+
+   int array[][];  // null
+   array=new int[3][3];  // 
+
+	0	1	2
+
+0	10	20	30
+1	5	9	25
+2	8	17	36
+
+
+  array[2][1]
+
+-> create two matrix of size 3 x 3. accept values from user. addition of two matrices. print all matrices.
+
+
+	10	20
+	40	50	60
+	100
+
+       int array[][];
+       array=new int[3][];
+
+      int array[][][]=new int[3][][3];
+
+      array[0]=new int[2];
+      array[1]=new int[3];
+      array[2]=new int[1];
+
+
+
+-> create two matrice of size m x n. write code for multiplication of two matrices
+
+
+
+  monocept
+
+  -o-----t
+
+  Guess a letter -> 
+
+   t
+ -------t
+Guess a letter -> m
+
+ m------t
+
+Guess a letter -> x
+
+
+x does not belong to string
+
+Guess a letter -> n
+
+ m-n----t
+
+
+-> tomorrow at 10.00am same link
+
+
+
+->Wrapper classes - >  purely object oriented language. -> everything in java is an object.
+
+
+int  -> Integer
+char  -> Character
+short -> Short
+double -> Double
+long -> Long
+float -> Float
+boolean -> Boolean
+
+
+
+wrapper classes -> use to represent normal built in data type values as objects
+
+
+int a=10;
+
+
+Integer aObj=a;  // autoboxing
+
+
+
+int b=aObj;  // unboxing
+
+
+
+Strings -> a sequence of characters 
+
+ String ->  immutable -> cant change its contents.
+ StringBuffer -> mutable ->
+ StringBuilder ->
+
+
+Streams -> sequence of bytes/elements which is attched to i/o devices
+
+keyboard -> standrd input device -> System.in
+
+monitor-> standard output device -> System.out
+
+Input stream ->
+
+Output stream ->
+
+
+Streams in java ->   1. Byte Stream  -> in the form bytes
+                             a. InputStream
+			     b. OutputStream
+
+	             2. Character Stream -> in the form of characters
+                             a. Reader
+                             b. Writer
+
+
+File Handling->  
+
+1. FileInputStream
+2. FileOutputStream
+3.FileReader
+4. FileWriter
+
+
+
+1. Read contents of a file and count no. of characters, words and lines in that file
+2. to copy contents of one file into another
+3. read name of a file. if it is a directory then display all file names inside that directory. 
+    if it is file then print its contents in reverse order.
+
+    File class  
+
+
+
+
+
+
+tomorrow at 2.00pm
+
+
+Classes and objects ->  
+
+
+Java is object oriented programming language
+
+
+1. object -> it is a real world entity of class
+             a. objects are allocated memory -> physical 
+
+
+2. class -> it is blueprint of object
+   a. class does not have memory -> logical
+   b. properties(data members/instance variables) and behavoiur(methods/functions) of objects 
+
+
+
+class classname
+{
+
+   // data memebrs
+   // member methods
+}
+
+ex.
+
+class Student {
+
+	   int rollnumber;
+	   String name;
+	   double percentage;
+}
+
+
+
+
+Student student=new Student();
+
+
+1. methods  ->
+2. access specifiers -> private, public, protected, default(public in same package)
+
+
+
+
+1. Java progrm to create a class Rectangle(width,height) create obects. Add method to calculate area.
+2. Java program to create class Employee(eid,ename,salary). 
+    Write getters and setters. 
+    Accept values from user. 
+   Display the contents of an employee.
+
+
+
+home assignment->
+
+Java program to create class Customer(custid,name,email,password). 
+Write getters and setters.
+ Accept values from user. 
+Display the contents of a customer.
+ Add validations to accept email. -> 
+
+
+int a;
+a=10;
+
+
+int a=10;
+
+
+constructors-> 1. constructor is a special member method of a class
+               2. constructor has same name as that of class
+               3. constructor does not have any return type
+               4. it is invoked automatically when we create object of the class
+               5. it initializes the object at the time of its creation
+
+
+types ->
+
+1. default -> it does not have any parameters
+              if we do not write a construcor, java provides the one
+2. parameterized -> it has some parameters
+
+ this-> this always refers to object that has currently invoked a method
+
+
+java always creates objects through constructors
+
+
+constructor chaining->
+
+
+
+
+toString()- return string representation of an object.
+            it gets invoked automatocally from System.out.println() when you print an object of class directly
+
+   System.out.println(e);   // it will invoke toString() of class Employee
+
+
+
+
+
+
+employees ->   0	1	2	3	4	
+
+
+
+Destructor -> ~Employee(){}
+
+in java, there are no destructors
+
+
+Garbage Collection: java removes unreferenced objects automatically to reclaim the memory - sporadically
+
+
+
+
+Employee e1=new Employee(1,"aa",4500);
+
+
+
+Employee e3=new Employee(2,"bb",7890);
+
+e3=e1;
+
+protected void finalize()
+{
+  // gets executed when garabge collection is about to happen
+  // closing activities
+}
+
+
+
+Enum: 
+
+
+Patient(patientname, Bplevel)
+
+
+
+Bplevel(high,medium,low)
+
+
+
+----->
+
+Object Calisthenics -> 
+
+
+s2=s1.accpet()
+s2.display()
+
+
+one level of indentation ->  one task  / one loop / control structure  
+
+
+
+Reflection:   if you want to know about an object(metadata), examine object at runtime
+
+
+Class  -> 
+
+
+Class str=Class.forName("java.lang.String")
+
+2. Class s=student.getClass()
+3. classname.class
+
+
+
+
+
+creating a JAR file-> JAVA Archive File
+
+
+
+a. 1 1 1       b. 1 2 3      c. 2 2 2      d. 0 1 2 
+
+
+
+
+
+
+"a="+a+" b="+b
+
+
+1. a=0  b=0  a=1  b=1    a=2   b=2      
+
+2. a=1  b=1  a=1  b=1    a=1   b=1
+
+3. a=1  b=1  a=2  b=2    a=3   b=3
+
+4. a=1  b=2  a=1  b=2    a=1   b=2   
+
+
+
+
+
+Static -> 
+
+1. static data members ->   
+     1. Static data members can persist their values
+     2. static data memebrs are allocated memory only once and is shared with all objects
+     3. static data memebrs are property of class, not object
+2. static member methods 
+    1. they can access only static data
+    2. static methods can be invoked using name of the class, not object
+
+3. Static block -> executes automatically when the class gets loaded
+
+
+
+Inheritance->
+
+
+final ->
+
+1. to stop method overriding
+2. to stop inheritance
+3. to create constants
+
+
+
+2. Create a class Vehicle(companyname).
+ Create a subclass FourWheeler(mileage) from it.
+ Again create a subclass Car(price) from FourWheeler.
+ Write java code to display details of a 5 cars.
+
+
+Object ->  superclass of all classses in java
+
+
+
+Serialization -> 
+
+Serializable
+
+writing objects directly into a file
+
+-> ObjetOutputSteam
+      -> writeObject(object)
+
+Deserialization ->  
+
+  ObjetInputStream
+     -> readObect()
+
+
+-> Employee(eid,name,salary). save and retrive array of 10 employees in a file employees.txt  
+
+
+
+
+Exception Handling: 
+
+
+Exception: are runtime error.
+           They are abnormal conditions that arises during execution of code.
+
+
+
+
+
+1. try  -> inspect some code for an exception
+2. catch
+3. throws -> lists exception that could be thrown from this method
+4. throw -> to throw an exception explicitly
+5. finally -> this block always executes whether wception arises or not
+
+
+
+
+
+
+1. one try can have one catch
+2. one try can have multiple catch blocks
+3. one try can have catch and a finally block
+4. one try can have a catch or a finally block
+
+
+Exception Hierarchy ->   Throwable ->  Exception
+
+
+
+1. Checked  -> they need to be compulsorily checked/handled  -> IOException -> compile time exceptions
+2. Unchecked  -> which are not mandatory to handle
+
+
+
+
+
+Presentations on ->
+
+Agile Scrum
+1. Scrum Roles
+2. Scrum Artifact
+3. Scrum events
+4. Scrum Metrics 
+
+
+
+1. Ayushi & Sai
+
+2. Dharam & Neha
+
+3. Nitesh & Ramya
+
+4. Saurabh & Swati
+
+5. Sanjay & Neelu & Sohan
+
+
+15 mins   
+
+31st July -> Monday 
+
+
+
+User Defined Exception -> 
+
+
+Exception
+
+RuntimeException
+
+
+
+Account(accnumber, name, balance)
+
+getters / setters
+constructors
+deposit(amount)
+withdraw(amount)
+
+
+AccountTest
+
+ object of account and execute the methods  -> read all values from user
+    acc.show()
+    acc.deposit(500)
+    acc.withdraw(1000)
+
+
+                     
+extending Exception class creates Checked type of exception
+
+extending RuntimeException class creates unchecked type of exceptions
+
+
+
+
+Voter
+
+private ->    voterid,  name,  age
+
+constructrors
+getters and setters
+
+
+
+accept age only if its greater than or equal to 18
+
+otherwise throw AgeNotValidException.
+
+write VoterTest main app 
+
+show voter details
+
+
+
+Collection: to manage a group of objects
+
+java.util
+
+
+
+Iterable  -> Collection  ->  1. List	2. Set	3. Queue  
+
+1. List
+  a. ArrayList
+  b. LinkedList
+  c. Vector  ->   d. Stack			Iterator     ->   ListIterator
+
+
+2. Set   -> allows only unique objects. it does not allow duplicate elements
+
+1. HashSet  -> there is no guaranty of sequence
+2. LinkedHashSet  -> elements are accessed in their insertion order
+
+->SortedSet
+3. TreeSet  -> elements are arranged in sorted order
+
+Comparator ->
+
+
+Maps-> collection of entries
+
+       entry(key,value)
+
+
+
+
+
+
+
+Multihreading ->  
+
+Mutiltasking-> doing multiple tasks at the same time.
+
+To achieve multitasking ->   1. Multipreocessing     2. Multithreading
+
+
+
+Multithreading -> executing more than one threads at same time simultaniously
+
+
+Process- > a program under execution
+
+
+Thread -> smallest individual parts of process that can run simultaniously
+
+           All threads share same memory space
+
+
+Thread life cycle-> 
+
+
+1. Thread t1=new Thread()  -> New / Born
+
+2. t1.start()   ->   Runnable   -> Ready to run
+
+3. run() ->   Running 
+
+4. wait() / sleep() / suspend()  -> Blocked    -> resume() / start()   -> 
+
+5. Dead -> 
+
+
+
+
+
+
+
+Creating a thread- >  
+
+1. by extending Thread class
+2. by implementing Runnable interface 
+
+
+
+main thread ->   a thread which is a first thread that starts
+                  athread which is a last thread to finish
+                 all threads are spawned from main thread
+
+
+[main,5,main]
+
+
+
+
+
+
+
+public class CallMe {
+	synchronized void call(String msg) {
+		System.out.print("[" + msg);
+		try {
+		Thread.sleep(1000);
+		} catch(InterruptedException e) {
+		System.out.println("Interrupted");
+		}
+		System.out.println("]");
+		}
+
+}
+
+public class Caller implements Runnable{
+	String msg;
+	CallMe target;
+	Thread t;
+	public Caller(CallMe targ, String s) {
+	target = targ;
+	msg = s;
+	t = new Thread(this);
+	t.start();
+	}
+	public void run() {
+	target.call(msg);
+	}
+
+}
+
+public class CallerTest {
+
+	public static void main(String[] args) {
+	
+		CallMe target = new CallMe();
+		Caller ob1 = new Caller(target, "Hello");
+		Caller ob2 = new Caller(target, "Synchronized");
+		Caller ob3 = new Caller(target, "World");
+	
+		try {
+		ob1.t.join();
+		ob2.t.join();
+		ob3.t.join();
+		} catch(InterruptedException e) {
+		System.out.println("Interrupted");
+		}
+
+	}
+
+}
+
+
+
+
+Thread Priority -> it is an integer value between 1 to 10
+
+
+
+The thread having maximum priority will get maximum cpu time
+
+by default a thread has priority as 5
+
+1- Thread.MAX_PRIORITY
+5- Thread.NORM_PRIORITY
+10- Thread.MAX_PRIORITY
+
+setPriority(2)
+
+
+
+Priorities- >
+
+Interthread communication -> 
+
+
+Excecutor Service->
+
+
+NewFixedThreadPool
+NewCachedThreadPool
+NewSingleThreadPool
+NewScheduledThreadPool
+
+
+
+execute()
+
+Callable
+
+
+
+Functional interfaces and Lambda Exepression->
+
+
+
+interface -> contains all abstract methods , default methods, static methods
+
+
+
+functional interface- > only one abstract method , default methods, static methods 
+
+
+interface ITester
+{
+   void test(); // functional interfaces
+}
+
+class TesterDemo
+{
+   public static void main(String args[])
+   {
+       ITester tester1=new ITester()
+   {
+    public void test()
+  {
+    System.out.println("Testing applications");
+  }};
+       tester1.test();
+   }
+}
+
+
+Marker Interface  -> which does not have any method
+                  -> Tagging interface   -> to tag objects
+                  -> Serializable , Clonable
+
+
+interface Say
+{
+}
+
+Lambdas -> to create a function that does not belong to any class
+           pass a function as an argument
+
+
+
+ISayable  -> say()
+
+
+Types of functional interfaces ->   java.util.function
+
+1. Consumer ->   takes one argument and does not return anything
+              void accept(arg)     ->  display(int a){System.out.pritnln(a);}
+
+    BiConsumer  -> takes two arguments and does not return anything
+                 void accept(arg1,arg2)
+
+2. Supplier  -> does not accept anything and returns something
+               get()
+
+3. Predicate -> accpets one argument and return boolean value
+               boolean test(arg)
+   BiPredicate -> accepts two arguments and return boolean value
+              boolean test(arg1,arg2)
+
+4. Function  -> accpets one argument and will return one
+
+               returntype apply(arg)
+
+   BiFunction ->  accpets two arguments and return one value
+
+
+Method references ->
+
+
+1. member method
+2. static method
+3. constructor method
+
+
+
+Stream API ->   java 8.0 -> 
+
+               a pipeline of elements of collections to perform some computations
+
+- operations performed on stream does not modify its source
+
+- we can use stream only once
+
+                   5	9	8	7	6	5 
+
+
+   stream()
+
+ -> java.util.stream
+
+
+Stream ooperations->  
+
+
+1. Intermediate  -> they return a stream
+                     they does not give end results
+                     filter(), map()
+
+2. Terminal -    a. it returns non stream values ( it can not  retun stream)
+                 b. they give end results
+
+ forEach(), collect(), reduce()
+
+
+l1=[1,2,3]
+l2=[5,6,7]
+
+l3=[l1,l2]
+
+l3=[1,2,3,5,6,7]
+
+
+ OOAD -> Object Oriented Analysis and Design 
+
+
+1. SOLID Principles -> 
+ 
+    a. S - Single Responsibility Pattern
+    b. O - Open and Closed Principle
+    c. L -  Liskov Subsitution Principle
+    d. I - Interface Segregation
+    e. D - Dependency Injection 
+
+
+
+
+1. SRP -> Evry class must have only one responsibility
+
+    a.  create a class Invoice (id,description, amount, tax) . Write getters and setters. Write constructors.
+
+    b.  TaxCalculator   ->  calculateTax(invoice)
+  
+    c. InvoicePrinter  ->  printInvoice(invoice,taxCalulator)
+
+
+2. OCP ->  Open Closed Principle  ->  Open for Extension but closed for change/modification
+
+3. LSP -> Liskov Sunstitution Principle  ->  your parent class must be completely replacible by its child class
+
+4. ISP -> Interface Segregation Principle -> 
+
+5. DIP -> Dependencey Inversion Principle -> You should avoid direct dependency
+
+  
+       
+------> Design Patterns ->
+
+1. Creational 
+2. Structural
+3. Behavioural
+
+
+1. Creational Design Patterns ->  how objects must be created
+
+a. Singleton Design Pattern ->   when you want to create a single instance of a class
+                                 ex. database connection ,  configuration, login 
+
+
+   a. make constructor private
+   b. declare onr static refererence of same class
+   c. write a method to get an instace of that class
+
+
+  class Login
+  {
+    private static Login login;
+    private Login()
+    {
+    }
+     
+    public static Login getLogin()
+    {
+         login= new Login();
+         return login;
+    }
+  }  
+
+
+  Login login1=Login.getLogin();
+  Login login2=Login.getLogin();
+
+
+
+2. Factory Design Pattern ->  you should define an interface or abstract class(Factory class)  to create objects on demand
+
+
+abstract class ->  Account(accno,  abstract getIntrestRate()).
+
+
+Derive two classes ->   SavingsAccount(type)   7.5
+                        CurrentAccount(name)   6.5
+
+
+main -> create objects of these classes and print details with interest rates
+
+
+3. Abstract Factory Design Pattern -> to create families of related or dependant objecs wothout specifying their concrete subclasses
+                                      to create factory of factories.
+
+
+
+4. Builder Design Pattern(POC) -> 
+
+
+
+2. Structural Design Pattern ->  how classes and objects to be composed  ...
+   
+  1. Adapter Design Pattern ->  it is used when we want to take an existing class whose source code we dont want to modify but still we want
+                                to make it work with another class
+                                It allows two or more incompatibale classes or objects to work togeher
+
+  2. Facade Design Pattern -> it defines a unified & simlified interface to a set of itnterfaces in a subsystem to hide complexity of                               system/implementation
+
+  3. Composite Design Pattern(POC) -> allows clients to operate in generic manner on objects 
+
+  4. Proxy Design Pattern(POC) -> it allows the control for accessing the original object
+
+  5. Decorator Design Pattern -> here we use composition instead of inheritance to etend fucntionality of object at runtime.
+                                 we wrap original class using some decorator class to add functionalities without modyfying original class 
+
+
+
+  IHat   ->   getName(),  getPrice(),  getDescription()
+
+  IHat  --->  StandardHat -100     PremiumHat   -200
+
+  HatDecorator implementing  IHat   
+ 
+  GoldenHat -20    RibbonedHat - 40  extending HatDecorator
+
+
+3. Behavioural Design Pattern -> 
+>
+  1. Observer Design Pattern ->  define one to one dependancy so that when one object changes its state , all its dependants gets notified and                                   updates
+
+ 2. Strategy Design Pattern ->  A class behavoiur can be changed at runtime. we creae some objects which represent some strategies and one context                                 object whose behavoiur varies as per its strategy.
+ 3. Command Design Pattern -> we warp a request into a command and send it to invoker. 
+                              invoker looks for the appropriate object which can handle the command
+
+ 4. State Design Pattern -> allows an object to change its own behaviour when its internal state changes
+
+ 5. Iterator Design pattern -> we want to iterate or traverse through a group of objects based on our requirement
+
+
+  Employee ->  id, name, salary
+
+  List<Employee>  employess;
+  Iterator i=employees.iterator() 
+
+
+
+
+
+Unit Testing -> JUNIT 5 -> 
+
+1. create a maven project  ->   it gives a readymade proper project structure. manages some external dependencies
+
+                                pom.xml -> manages dependencies
+
+2. add junit dependencies ->  junit-jupitor-api
+                              junit-jupitor-engine
+
+
+
+
+StringUtil ->  
+
+  truncateAInFirstTwoPlaces(String string) ->  ABCD  ->  BCD      AABCD  ->  BCD     AAABCD ->  ABCD     BACD -> BCD  
+
+  isFirstAndLastTwoCharactersEqual(String string) ->    AABCDAA  ->   true        ABCDEAB  ->   true     ABCDEBA   ->  false
+
+
+
+
+
+Mockito -> used to insert/create mock object with some dummy data
+
+Employee ->  eid, ename, department
+
+Department -> did, dname
+
+
+
+TicTacToe ->  
+
+MarkType ->  x, o
+
+Cell ->  MarkType
+        isEmpty()
+
+Board ->   cells[3][3]
+          isBoardFull()
+          setCellMark(MarkType)
+        
+
+Player -> name
+          MarkType
+
+Game-> Players[2]
+       currentPlayer
+       ResultAnalyser
+       Board
+       play()
+        swiitchPlayer()
+
+ResultAnalyser  ->  board
+        horizonatlWinChecks()
+        verticalWinChecks()
+        digonallWinChecks()
+
+Result -> win, draw, progress
+
+main class ->
+
+
+AlreadyMarkedException
+
+
+InvalidCellException
+
+
+
+
+RDMBS  -> 
+
+DBMS ->  Database management system  -> manage the database
+
+Database -> collection interrelated data 
+
+
+Database   ->  Table   -> column(fields)   -> rows(records)
+
+
+
+excel, mysql server, oracle, mongodb, postgresql
+
+
+CRUD  ->   create , retrieve,  update, delete
+
+
+SQL -> Structured Query Language
+
+1.DDL  -> Data definition language -> create , alter, drop  -> table
+
+2.DML -> Data Manipulation Language -> insert, update, delete
+
+3.DCL -> Data Control Language -> grant, revoke
+
+4.DQL  ->  Data Query Language -> select
+
+5.TCL -> Transaction Control Language->  commit, rollback, savepoint
+
+
+Mysql , Mysql workbench
+
+
+Normalization:   process which eliminates redudancy and avoiding insertion, deletion and updation anomalies
+
+1NF - >  2NF  ->  3NF  
+
+
+1NF -> if if its atomicity is 1 ->  a cell should contain only one value(one cell should not contain multiple values)
+
+primary key -> it idenfies a record uniquly
+
+candiadate key ->  it is combination of more than one fields which can work as primary key
+
+2NF -> 1. a table is in 1NF   2. should not have partial dependency
+
+
+3NF -> 1. it should be in 2NF    3. should not be any transititive functional dependency
+
+
+
+
+
+JDBC ->  Java Database Connectivity -> to connect java code to a database.
+
+JDBC Drivers ->
+
+1. Type 1-> JDBC ODBC Bride -> 
+2. TYpe 2 -> Native API
+3. Type 3-> Network Proctocol
+4. Type 4-> Thin
+
+
+
+steps to connect a java code to database ->
+
+1. register the driver -> Class.forName(" ")
+2. creating a connection  ->     Connection connection= DriverManager.getConnection("","","")
+3. create statement  -> Statement statement= connection.createStatement()
+4. execute querries -> statement.executeQuery("")  , statement.executeUpdate("")
+5. close the connection
+
+
+
+PreparedStatement -> used to execute parameterized querries.
+
+employee(eid,name,salary)
+
+
+
+
+Transaction management: 
+
+Transaction ->  set of instrcutions/querries/commands/steps/actions
+
+transfer money -> 
+
+1. debit ->  5000   -> 1000  ->   4000  ->  5000
+2. credit -> 
+
+ACID ->   Automicity	Consistency	Isolation	Durability
+
+
+
+
+update student set age=? where rollnumber=?"
+sp1
+update student set age=? where rollnumber=?"
+update student set age=? where rollnumber=?"
+insert student set age=? where rollnumber=?"
+
+commit()
+
+rollback(sp1)
+
+SavePoint
+
+setAutoCommit(false)
+
+
+Servlet and JSP ->   they are used to create a web application.
+
+1. What is internet? -> network of networks
+2. network? -->   group/connection of more than one computing devices
+3. why to create a network? ->  1. to share data   2. to share resources   3. to share applications
+    ARPANET  ->  Advanced Research Project Agency Network -> 
+4. WWW -> world wide web -> https://www.swabhavtechlabs.com/ -> Tim Berners Lee
+5. web page? -> information that is displayed in a web browser at a time
+6. web browser -> software which is used to acess web pages
+7. web site? -> a collection of interrelated web pages
+
+8. Protocol? -> rules which should be followed for communication on network
+   HTTP -> Hyper Text Transfer Protocol -> transfering web pages and resources  https://www.google.com/
+   HTTPs -> Hyper Text Transfer Protocol secured -> 
+   DNS -> Domain Name System -> 105.0.568.235 -> www.swabhavtechlabs.com
+   TCP / IP -> Transfer Control Protocol / Internet Protocol -> it ensure delivery of messages/packets between two devices
+   UDP -> User Datagram Protocol -> 
+   PPP ->
+   SMTP -> Simple Mail Transfer Protocol -> to send an email
+   POP -> Post Office Protocol -> to receive email
+   FTP  -> File Transfer Protocol ->
+
+Internet works in the form of client and server
+
+
+web application -> it generates a response for a request at server side
+
+Server side Technology -> servlets, jsp, asp, php
+
+client side ->  javascript
+
+
+servlets -> used to create web applications 
+
+Apache Tomcat -> 
+
+Life cycle of servlet ->
+
+1.init() -> initialiations  /  called only once for the first request only from a client
+2. service() -> actually responsible for generating a response for a client request / compulsory /  called for every request
+3. destroy() -> resposnible for closing activities  / called only once / 
+
+  
+GenericServlet -> 
+
+HttpServlet -> handles http requests only
+
+two types of http requests -> 
+1. GET request
+2. POST request 
+
+
+to create a servlet ->  
+
+class MyServlet extends HttpServlet
+{
+
+  public void doGet(HttpServeltRequest request, HttpServletResponse response)
+  {
+      //handle get request
+  }
+
+   public void doPost(HttpServeltRequest request, HttpServletResponse response)
+  {
+      doGet(request,response);
+  }
+
+}
+
+
+
+Get vs. Post  ->
+
+
+wwww.swabhavts.com?studentid=10
+
+
+1. get is used to retrieve and post is used to send data to server
+2. data is exposed in url and post data is sent in the body
+3. post is more secured than get
+4. get is often used than post
+5. get requests can be bookmarked
+
+
+JSP -> Java Server Pages  -> used to create web applications /  dynamic web pages
+
+                             HTML  ->  static 
+
+                             java  -> programming logic
+
+                             HTML + java  -> JSP
+
+
+
+JSP Scripting elements ->
+
+1. comment -> <%--  comments  --%>
+2. Scriptlet  ->   <%     %>
+3. Declarations -> <%! declarations %>
+4. expressions->   <%= expression %>
+5. directives -> provide global info about your jsp page   -> <%@ directivename %>
+
+                1. page   2. include   3. taglib
+   1. <%@ page %> -> to set attributes for whole jsp page
+   2. <%@ include file="url" %> ->  include one file in another jsp file
+   3. <%@ taglib uri="" %>  -> to implement a custom tag library  ->  jstl 
+
+
+
+JSP implicit objects ->
+
+1. out -> JspWriter  ->  PrintWriter
+2. request -> HttpServletRequest
+3. response -> HttpServletResponse
+4. exception ->  JspException
+5. page -> Object
+6. session -> HttpSession
+7. pageContext   -  PageContext
+
+
+JSP Actions -> (POC)
+
+
+
+Http requests are stateless beacause HTTP is a stateless protocol -> it does not rememebr state of an user/client
+ -> it does not remember what has happened on earlier page when you navigate to next page
+ -> it considers every request coming from client as new request
+
+
+Session -> amount of time that a user spents on a perticular webpage or website 
+
+
+
+
+Sesion Management -> 
+
+1. URL Rewriting -> 
+2. Hidden form fields  ->  <input type="hidden">
+3. Cookies   -> Cookie is small piece of information(name, value, maxage, creationdate) -
+                    a. generated by server
+                    b. stroed at client
+                    c. for identification of client on server
+
+      a. persistent cookies -> they are not deleted when broswer is closed
+      b. non-persistent - they are deleted when browser is closed
+
+
+4. HttpSession  -> 
+
+
+
+Jstl ->   JSP Standard Tag Library
+          Custom library -> custom tags -> 
+
+1. core tags
+2. function tags
+3. XML tags
+4. Formating tags
+5. SQL tags
+
+
+
+
+Customer(Cid,fname,lname,mobileno,email)
+
+
+list of 5 customer
+
+
+cid	fname	lname	mobileno	email
+1
+2
+3
+4
+5
+
+
+Spring framework ->  it is a dependency injection(Inversion of Control) framework
+
+
+-Rod Johnson
+
+Spring, spring core, spring boot, spring mvc
+
+
+Computer
+
+  - name
+  - Harddisk
+
+
+Harddisk
+  - capacity
+
+
+
+Java based annotations ->
+
+1. @Configurable  ->   it marks a class as a configuration class
+2. @Component -> it marks a class that object of this class can be created by ioc container 
+
+
+
+
+
+Employee(eid, ename, salary, address)
+
+Address(builidingname,cityname,state,pincode)
+
+
+
+Spring boot Application ->
+
+1. spring initializr
+2. STS (Spring Tool Suit)
+
+
+
+
+
+
+localhost:8080  ->   http://localhost:8080/
+
+
+
+Hello welcomt to spring boot
+
+
+get -> select
+
+post -> insert
+
+put -> update
+
+delete -> delete
+
+
+DAO -> Data Access Object
+
+
+
+EntityManager ->
+
+insert -> persist()
+
+update -> merge()
+
+delete -> remove()
+
+select -> typed query
+
+
+Rest Application to perform CRUD on a database using hibernate-> 
+
+
+
+localhost:8080/student/students
+
+localhost:8080/student/savestudent
+
+
+
+
+1. Entities
+2. Repository
+3. Service
+4. Controllers
+
+
+
+@NoArgsConstructor  - default constructor
+@AllArgsConstructor - parameterized constructor having all arguments
+@RequiredArgsConstructor - 
+
+JpaRepository ->
+
+1. findAll() - select * from student;
+2. save() - insert/update a record
+
+
+3+
+
+
+
+
+/studentapp/students/hfskdj
+
+
+
+1. Request Body -> post
+
+2. path variable -> search -> single result
+
+3. query params -> filter / pagination
+
+
+
+
+
+
+-> ResponseEntity -> response, status
+
+
+
+
+Exception Handling -> 
+
+
+GlobalExceptionHandler
+
+
+
+
+1. One to one ->
+
+
+Student ->   Address
+
+
+Employee(eid,name,salary) -> Department(did, dname)
+
+
+
+
+{
+   "name":"swapnil",
+   "email":"swwp.k@gmail.com",
+   "age":34;
+   "address":{"city":"Mumbai","state":"maharashtra","pincode":400001}
+}
+
+
+addressid city state pincode
+1
+
+rno name email age addressid
+
+
+application  ->     persistent context    ->       database
+
+
+DTO -> Data Transfer Object
+
+
+
+student(M) ->   course(M)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+
+

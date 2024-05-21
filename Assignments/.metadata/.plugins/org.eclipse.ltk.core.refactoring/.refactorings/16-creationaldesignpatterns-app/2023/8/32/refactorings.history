@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;SavingsAccount.java&apos; to &apos;16-designpatterns-app/src/com.techlabs.factory&apos;&#x0D;&#x0A;- Original project: &apos;16-designpatterns-app&apos;&#x0D;&#x0A;- Destination element: &apos;16-designpatterns-app/src/com.techlabs.factory&apos;&#x0D;&#x0A;- Original element: &apos;com.techlabs.factory.SavingsAccount.java&apos;" description="Copy compilation unit" destination="/src&lt;com.techlabs.factory" element1="/src&lt;com.techlabs.factory{SavingsAccount.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1691649009741" units="1" version="1.0"/>
+</session>

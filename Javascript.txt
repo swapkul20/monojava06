@@ -1,0 +1,103 @@
+Javascript ->  is a scripting language. client side technology. runs in a browser.
+ Brendon Eitch -> 1995 -  Live script -> java script -> 
+
+
+HTML -> to create static web pages.
+
+Javascirpt -> to create dynamic or responsive
+
+Where to write?
+ 
+<HTML>
+<HEAD></HEAD>
+<BODY>
+</BODY>
+</HTML>
+
+
+1. inside body -> when you want to execute javascript code when your html page is loading
+2. inside head -> if you want to execute javascript code when user interacts with a page
+3. inside a seperate file .js
+
+
+1. variables ->  loosely typed language
+
+  a. let  - it is scope specific
+  b. var -> it is not scope specific
+  c. 
+
+
+Datatypes ->
+
+primitive->
+number
+string
+boolean
+null
+undefined
+
+non primitive->
+object
+array
+function
+
+
+a=10;
+
+
+strings-> 
+
+
+template string -> 
+
+
+
+
+
+
+
+Arrays-> 
+
+
+Type convsrsion 
+
+
+1. Take an array as parameter and return it in ascending and decending order
+2.find second largest element in an array
+3. print fibbonacci series with recusrsion and wtihout recursion 
+
+
+
+DOM -> Document Object Model
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

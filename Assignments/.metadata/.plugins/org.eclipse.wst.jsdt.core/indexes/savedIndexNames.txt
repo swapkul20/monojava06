@@ -1,0 +1,10 @@
+INDEX VERSION 1.4+D:\My Batches\Monocept July 2023\Assignments\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+346626537.index
+2629425703.index
+4092975723.index
+420033192.index
+1523781242.index
+4006435134.index
+3289087986.index
+2084162959.index
+1620454379.index

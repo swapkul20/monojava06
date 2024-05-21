@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Test.java&apos; to &apos;10-exceptionhaldling-app/src/com.techlabs.exceptions&apos;&#x0D;&#x0A;- Original project: &apos;09-inheritance-app&apos;&#x0D;&#x0A;- Destination element: &apos;10-exceptionhaldling-app/src/com.techlabs.exceptions&apos;&#x0D;&#x0A;- Original element: &apos;com.techlabs.manboy.Test.java&apos;" description="Copy compilation unit" destination="=10-exceptionhaldling-app/src&lt;com.techlabs.exceptions" element1="/src&lt;com.techlabs.manboy{Test.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1690192662073" units="1" version="1.0"/>
+</session>

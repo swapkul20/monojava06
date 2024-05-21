@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <div>
+    <p> <h3 id="message">Hello World</h3></p>
+    <p> <h1>Javascript Tutorials</h1></p>
+    <p class="error"> <h2>This is Error</h2></p>
+    <div class="error"> This is div error</div>
+  </div>
+  <script language="javascript">
+
+   let para=document.querySelector("p");   
+
+   console.log(para.innerText);
+
+   console.log(para.innerHTML);
+
+   const paras=document.querySelectorAll("p");
+   console.log(paras);
+
+   para=document.querySelector(".error");
+   console.log(para);
+
+   para=document.querySelector("div.error");
+   console.log(para);
+
+   console.log(document.getElementById("message"));
+   console.log(document.getElementsByClassName("error"));
+   console.log(document.getElementsByTagName("p"));
+
+  </script>
+</body>
+</html>
